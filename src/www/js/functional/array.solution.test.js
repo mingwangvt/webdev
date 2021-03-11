@@ -9,8 +9,9 @@ describe('Array higher-order functions', () => {
     it('rewrite the for loop with forEach', () => {
       const mockFn = jest.fn()
 
-      // element, index, array
-      users.forEach(user => mockFn(user))
+      // forEach takes element and index of an array, here needs to specify that we want element
+      // Wrong: users.forEach(mockFn)
+      users.forEach((user) => mockFn(user))
 
       expect(mockFn.mock.calls.length).toEqual(3)
       expect(mockFn.mock.calls).toEqual([
