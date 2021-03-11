@@ -13,20 +13,31 @@
 
 
 
-
-## JavaScript Language
+## Day One
+### JavaScript Language
 - Const is only available in the { } that contains this const, it will not work outside of the { }
 - Const do not allow you to **reassign** the value; let allow to reassign, but not initiate.
 - Use let in for loop, not var. initial let , it is not able to use outside of for loop, but var can be used outside of loop. We don’t want index variable be used outside of for loop
 - TODO: Check difference between const, let and var
 
 
-## Deconstruct and Spread Object
+### Deconstruct and Spread Object
 ```
 const obj = {a : 1, b: 2, c:3}
 const {a, b, c: myValue} = obj // deconstruct object; rename c to myValue
 const objCopy = {...obj} // spread object
 ```
+
+
+
+## Day Two
+
+- There are three ways of controlling the execution context of this
+
+    - bind, arrow function, and rename it
+
+    - sayHello.bind(myObj); ()=> {}; self = this
+
 
 
 
@@ -37,3 +48,5 @@ Difference between `obj.value` and `obj[value]`
 object.value // value exist in the object
 object[value] // value can be a variable, value = 1, equal to object.1
 ```
+
+
