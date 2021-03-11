@@ -1,5 +1,9 @@
 # WebDev: Web Development Course
 
+This Course is taken during Mar 10 to 12, 2021.
+
+Check my personal class notes **[ My Notes for Intermediate JS ]** in this GitHub folder.
+
 This is the source code and training content for Web Development courses taught by [Andrew Smith](https://github.com/andrewsouthpaw/).
 
 ## Before you begin
