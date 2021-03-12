@@ -41,6 +41,10 @@ const objCopy = {...obj} // spread object
 
 
 
+## Day Three
+
+
+
 
 
 ## Other Tricks
