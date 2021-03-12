@@ -10,6 +10,7 @@
     - andrew.southpaw@gmail.com
     - @andrewsouthpaw (Twitter, GitHub, etc.)
     - https://www.andrewsouthpaw.com
+- [DOM Event Reference](https://developer.mozilla.org/en-US/docs/Web/Events)
 
 
 
@@ -37,6 +38,10 @@ const objCopy = {...obj} // spread object
     - bind, arrow function, and rename it
 
     - sayHello.bind(myObj); ()=> {}; self = this
+
+
+
+## Day Three
 
 
 
