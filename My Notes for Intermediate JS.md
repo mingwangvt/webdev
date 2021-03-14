@@ -55,3 +55,14 @@ object[value] // value can be a variable, value = 1, equal to object.1
 ```
 
 
+## Reference
+https://snyk.io/
+https://semver.org/
+https://babeljs.io/docs/en/babel-preset-env#targets
+https://babeljs.io/docs/en/babel-preset-env#usebuiltins
+https://github.com/obahareth/are-you-es5
+https://github.com/AndrewSouthpaw/webpack-babel-starter-project
+https://jestjs.io/
+expect docs: https://jestjs.io/docs/expect
+Mock fns: https://jestjs.io/docs/mock-function-api
+https://kentcdodds.com/blog/stop-mocking-fetch
